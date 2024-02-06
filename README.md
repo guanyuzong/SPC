@@ -24,13 +24,17 @@ The training code will coming soon ...
 ## Testing
 If you would like to reproduce our results, please follow these steps.
 
-1. We provide a link to download the parameters of the trained model [code:0617][https://pan.baidu.com/s/1ZsddhG5dm6PHByvzaUSS0w](https://pan.baidu.com/s/11JUyWNfMqGT5ygCQKFuxbg).
+1. Complete the experimental environment setup as described above.
 
-2. Place the parametric model under the './best/modal/' path.
+2. Download the dataset and place it in the data folder [code:0617]https://pan.baidu.com/s/10g1can5GKMoO5Vm238aFEw.
 
-3. Open terminal. run：python3 test.py
+3. We provide a link to download the parameters of the trained model [code:0617][https://pan.baidu.com/s/1ZsddhG5dm6PHByvzaUSS0w](https://pan.baidu.com/s/11JUyWNfMqGT5ygCQKFuxbg).
 
-4. We also provide links to download the results of our experiments [code:0617] https://pan.baidu.com/s/14NemZ9E5_htkckmKwVfPhQ. 
+4. Place the parametric model under the './best/modal/' path.
+
+5. Open terminal. run：python3 test.py
+
+6. We also provide links to download the results of our experiments [code:0617] https://pan.baidu.com/s/14NemZ9E5_htkckmKwVfPhQ. 
 
 ## Evaluation
 If you would like to evaluate our entire model parameters through quantitative metrics, please follow these steps.
