@@ -26,9 +26,9 @@ If you would like to reproduce our results, please follow these steps.
 
 1. Complete the experimental environment setup as described above.
 
-2. Download the dataset and place it in the data folder [code:0617]https://pan.baidu.com/s/10g1can5GKMoO5Vm238aFEw.
+2. Download the dataset and place it in the data folder [code:0617] https://pan.baidu.com/s/10g1can5GKMoO5Vm238aFEw.
 
-3. We provide a link to download the parameters of the trained model [code:0617]https://pan.baidu.com/s/1nmcqa18cc5pbcRA76KhH9g?pwd=0617 .
+3. We provide a link to download the parameters of the trained model [code:0617] https://pan.baidu.com/s/1nmcqa18cc5pbcRA76KhH9g?pwd=0617 .
 
 4. Place the parametric model under the './best/modal/' path.
 
