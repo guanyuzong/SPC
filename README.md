@@ -5,6 +5,8 @@ Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection
 ![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
 
 we introduce two metrics: FLOPs (Floating Point Operations, in G) and Params (the total number of trainable parameters, in M). FLOPs measure the computational complexity of a module during a forward propagation, while Params reflect the total number of parameters in the module.
+
+1.	The CDM module infers the confidence of depth images through the combination of fully connected layers, without involving a large feature extraction network, has a relatively low parameter count and computational load (FLOPs: 0.002G; Params: 2.229M)
 ## Attention!!!
 It is recommended to reproduce our code in the Linux system. 
 
