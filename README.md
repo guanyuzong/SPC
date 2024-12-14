@@ -1,7 +1,6 @@
 # SPC
 Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection
-[Uploading 3-eps-converted-to.pdf…]()
-
+![3-eps-converted-to_page-0001](https://github.com/user-attachments/assets/161439b6-547a-44ff-8f68-517af812b521)
 
 ## The module's parameter count and computational load
 ![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
