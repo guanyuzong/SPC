@@ -1,9 +1,11 @@
 # SPC
 Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection
 
+## The module's parameter count and computational load
+![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
+we introduce two metrics: FLOPs (Floating Point Operations, in G) and Params (the total number of trainable parameters, in M). FLOPs measure the computational complexity of a module during a forward propagation, while Params reflect the total number of parameters in the module.
 ## Attention!!!
 It is recommended to reproduce our code in the Linux system. 
-![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
 
 If you want to run the test.py in Windows, please make sure that the path where you save the test results exists.
 
