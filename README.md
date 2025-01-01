@@ -1,5 +1,5 @@
 # SPC
-Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection （Accepted by Knowledge-Based Systems https://doi.org/10.1016/j.knosys.2024.112910 ）
+Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection 
 ![3-eps-converted-to_page-0001](https://github.com/user-attachments/assets/161439b6-547a-44ff-8f68-517af812b521)
 ```bibtex
 @article{CAVER-TIP2023,
@@ -12,7 +12,7 @@ Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection （Ac
   pages={1-1},
   doi={10.1109/TIP.2023.3234702}
 }
-
+```bibtex
 ## The module's parameter count and computational load
 ![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
 
