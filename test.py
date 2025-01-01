@@ -132,7 +132,7 @@ if __name__=='__main__':
     conf = argparse.ArgumentParser(description="train model")
     conf.add_argument("--tag", type=str)
     conf.add_argument("--gpu", type=int, default=0)
-    conf.add_argument("--model", type=str,default = './best/modal/CEDNet.pth')
+    conf.add_argument("--model", type=str,default = './best/modal/SPCNet.pth')
 
     args = conf.parse_args()
     logger.basicConfig(level=logger.INFO, format='%(levelname)s %(asctime)s %(filename)s: %(lineno)d] %(message)s', datefmt='%Y-%m-%d %H:%M:%S', \
