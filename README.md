@@ -7,7 +7,7 @@ Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection
   journal={Knowledge-Based Systems},
   pages={112910},
   year={2024},
-  doi={[Elsevier](https://doi.org/10.1016/j.knosys.2024.112910)}
+  doi={https://doi.org/10.1016/j.knosys.2024.112910}
 }
 </pre>
 ![3-eps-converted-to_page-0001](https://github.com/user-attachments/assets/161439b6-547a-44ff-8f68-517af812b521)
