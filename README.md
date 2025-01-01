@@ -68,8 +68,11 @@ We introduce two metrics: FLOPs (Floating Point Operations, in G) and Params (th
 2.	The computational complexity of the SPC and MFR modules is higher, mainly due to two factors: 1) these modules are used multiple times throughout the network, and 2) at higher resolution levels, the computational complexity of SPC and MFR increases significantly as the resolution of the input feature maps rises.
 
 3.  The MF module generates the final prediction by integrating multi-modal features through the introduction of depth map confidence g. Its network architecture is relatively simple, with lower parameter count and computational complexity (FLOPs: 4.836G; Params: 1.181M).
+ 
+<pre>
+python3 test_for_params.py
+</pre>
 
-run： python3 test_for_params.py
 
 ## Evaluation
 If you would like to evaluate our entire model parameters through quantitative metrics, please follow these steps.
