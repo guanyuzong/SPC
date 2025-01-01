@@ -30,7 +30,14 @@ tensorboardX==2.5
 opencv-python==4.5.5.64
 
 ## Training
-1. Download the data from [0617] https://pan.baidu.com/s/1Ep131vjSUa7d4eYwRJkzBQ. The generated pseudo-labels for depth image quality have been included in the compressed package as pseudo .pkl files.
+1. Please download the data from [0617] https://pan.baidu.com/s/1Ep131vjSUa7d4eYwRJkzBQ. The pseudo-labels related to depth image quality are included in the compressed package as .pkl files.
+
+2. If you want to generate pseudo-labels yourself, run:
+<pre>
+python3 
+</pre>
+
+3. 
 
 ## Testing
 If you would like to reproduce our results, please follow these steps.
