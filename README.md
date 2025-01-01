@@ -30,17 +30,13 @@ It is recommended to reproduce our code in the Linux system.
 If you want to run the test.py in Windows, please make sure that the path where you save the test results exists.
 
 ## Experimental environment 
-
+</pre>
 python==3.7.0
-
 pytorch==1.8.0
-
 torchvision==0.9.0
-
 tensorboardX==2.5
-
 opencv-python==4.5.5.64
-
+</pre>
 ## Training
 The training code will coming soon ...
 
