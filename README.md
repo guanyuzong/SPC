@@ -47,15 +47,16 @@ If you would like to reproduce our results, please follow these steps.
 
 1. Complete the experimental environment setup as described above.
 
-2. Download the dataset and place it in the data folder [0617] https://pan.baidu.com/s/1L9l1p9WS2T0lh-ZOvkMKJQ].
+2. We provide a link to download the parameters of the trained model [0617] https://pan.baidu.com/s/17a2V89dPGr2OzIn8b--kIw
 
-3. We provide a link to download the parameters of the trained model [code:0617] [https://pan.baidu.com/s/1nmcqa18cc5pbcRA76KhH9g?pwd=0617].
+3. Place the parametric model under the './best/modal/' path.
 
-4. Place the parametric model under the './best/modal/' path.
+4. Open terminal. run:
+<pre>
+python3 test.py
+</pre>
 
-5. Open terminal. run：python3 test.py
-
-6. We also provide links to download the results of our experiments [code:0617] https://pan.baidu.com/s/14NemZ9E5_htkckmKwVfPhQ. 
+6. We also provide links to download the results of our experiments [code:0617] https://pan.baidu.com/s/1Woh1axxRnxplpmXmrOju5w. 
 
 ## The module's parameter count and computational load
 ![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
