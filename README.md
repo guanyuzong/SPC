@@ -23,7 +23,7 @@ We introduce two metrics: FLOPs (Floating Point Operations, in G) and Params (th
 
 3.  The MF module generates the final prediction by integrating multi-modal features through the introduction of depth map confidence g. Its network architecture is relatively simple, with lower parameter count and computational complexity (FLOPs: 4.836G; Params: 1.181M).
 
-run： python3 Params.py
+run： python3 test_for_params.py
 ## Attention!!!
 It is recommended to reproduce our code in the Linux system. 
 
