@@ -37,7 +37,7 @@ opencv-python==4.5.5.64
 python3 cal_score.py
 </pre>
 
-3. If you want to retrain our network, run:
+3. If you want to retrain our network, please first download the ResNet-50 pre-trained model and save it in the model_zoo folder. Adjust parameters such as GPU, epochs, and batch size according to your needs. Once the above steps are completed, run:
 <pre>
 python3 train.py
 </pre>
