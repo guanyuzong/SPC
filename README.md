@@ -34,10 +34,13 @@ opencv-python==4.5.5.64
 
 2. If you want to generate pseudo-labels yourself, run:
 <pre>
-python3 
+python3 cal_score.py
 </pre>
 
-3. 
+3. If you want to retrain our network, run:
+<pre>
+python3 train.py
+</pre>
 
 ## Testing
 If you would like to reproduce our results, please follow these steps.
