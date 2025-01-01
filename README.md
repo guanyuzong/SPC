@@ -12,18 +12,6 @@ Scenario Potentiality-Constrain Network for RGB-D Salient Object Detection
 </pre>
 ![3-eps-converted-to_page-0001](https://github.com/user-attachments/assets/161439b6-547a-44ff-8f68-517af812b521)
 
-## The module's parameter count and computational load
-![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
-
-We introduce two metrics: FLOPs (Floating Point Operations, in G) and Params (the total number of trainable parameters, in M). FLOPs measure the computational complexity of a module during a forward propagation, while Params reflect the total number of parameters in the module.
-
-1.	The CDM module infers the confidence of depth images through the combination of fully connected layers, without involving a large feature extraction network, has a relatively low parameter count and computational load (FLOPs: 0.002G; Params: 2.229M)
-
-2.	The computational complexity of the SPC and MFR modules is higher, mainly due to two factors: 1) these modules are used multiple times throughout the network, and 2) at higher resolution levels, the computational complexity of SPC and MFR increases significantly as the resolution of the input feature maps rises.
-
-3.  The MF module generates the final prediction by integrating multi-modal features through the introduction of depth map confidence g. Its network architecture is relatively simple, with lower parameter count and computational complexity (FLOPs: 4.836G; Params: 1.181M).
-
-run： python3 test_for_params.py
 ## Attention!!!
 It is recommended to reproduce our code in the Linux system. 
 
@@ -42,7 +30,7 @@ tensorboardX==2.5
 opencv-python==4.5.5.64
 
 ## Training
-The training code will coming soon ...
+1. Download the data from [0617] https://pan.baidu.com/s/1Ep131vjSUa7d4eYwRJkzBQ. The generated pseudo-labels for depth image quality have been included in the compressed package as pseudo .pkl files.
 
 ## Testing
 If you would like to reproduce our results, please follow these steps.
@@ -59,6 +47,19 @@ If you would like to reproduce our results, please follow these steps.
 
 6. We also provide links to download the results of our experiments [code:0617] https://pan.baidu.com/s/14NemZ9E5_htkckmKwVfPhQ. 
 
+## The module's parameter count and computational load
+![image](https://github.com/user-attachments/assets/06efd1a1-6c87-4043-ad23-14f8c5dd3fa2)
+
+We introduce two metrics: FLOPs (Floating Point Operations, in G) and Params (the total number of trainable parameters, in M). FLOPs measure the computational complexity of a module during a forward propagation, while Params reflect the total number of parameters in the module.
+
+1.	The CDM module infers the confidence of depth images through the combination of fully connected layers, without involving a large feature extraction network, has a relatively low parameter count and computational load (FLOPs: 0.002G; Params: 2.229M)
+
+2.	The computational complexity of the SPC and MFR modules is higher, mainly due to two factors: 1) these modules are used multiple times throughout the network, and 2) at higher resolution levels, the computational complexity of SPC and MFR increases significantly as the resolution of the input feature maps rises.
+
+3.  The MF module generates the final prediction by integrating multi-modal features through the introduction of depth map confidence g. Its network architecture is relatively simple, with lower parameter count and computational complexity (FLOPs: 4.836G; Params: 1.181M).
+
+run： python3 test_for_params.py
+
 ## Evaluation
 If you would like to evaluate our entire model parameters through quantitative metrics, please follow these steps.
 
@@ -69,4 +70,5 @@ If you would like to evaluate our entire model parameters through quantitative m
 3. Modify the path to the dataset in main.m.
 
 4. run main.m.
+
 
